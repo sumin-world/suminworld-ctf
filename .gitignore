@@ -56,3 +56,8 @@ core*
 # optional: sensitive or local test files
 input.txt
 secrets.*
+# Dreamhack artifacts
+*.zip
+dreamhack/**/deploy/*
+flag*
+*.flag
