@@ -1,0 +1,58 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+ehthumbs.db
+Thumbs.db
+
+# GDB / debugger
+.gdb_history
+
+# build artifacts / binaries / objects
+*.o
+*.so
+*.exe
+*.out
+a.out
+test                # 학습용 바이너리 무시 (네가 의도한 경우만)
+bin/                # 만약 빌드 결과를 bin/에 둔다면
+build/
+obj/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.env                # 환경변수 파일(비밀값)
+.env.*              # .env.local 등
+
+# logs / backups / editors
+*.log
+*~
+*.swp
+*.swo
+*.bak
+.vscode/
+.idea/
+
+# Docker
+.dockerignore
+
+# CTF / flags (prevent accidentally committing flags)
+flag*
+*.flag
+
+# tmp / core dumps
+*.tmp
+core*
+*.pid
+
+# optional: sensitive or local test files
+input.txt
+secrets.*
